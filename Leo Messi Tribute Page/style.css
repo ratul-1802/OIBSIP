@@ -1,0 +1,105 @@
+*{
+    font-size: 25px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+    background-color: gainsboro;
+}
+.front_pic,figcaption{
+	display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: indigo;
+}
+.front_pic img{
+	width: 45%;
+	height: auto;
+}
+.quote{
+	background-color: #333;
+	display: flex;
+    justify-content: right;
+	
+}
+.quote p,q{
+	color: whitesmoke;
+	font-size: x-large;
+}
+header {
+	background-color: #333;
+	color: white;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+#awards img{
+    height: 30%;
+    width: 30%;
+    float: right;
+}
+#earlylife p{
+	width: 50%;
+}
+#earlylife img{
+	height: 30%;
+    width: 30%;
+    float: right;
+	position: relative;
+	top: 80px;
+}
+main {
+	padding: 50px;
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+h1 {
+	font-size: 48px;
+	margin: 0;
+}
+
+h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 25px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
