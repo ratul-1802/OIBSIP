@@ -18,9 +18,9 @@ section{
 }
 input{
     margin: 15px;
-    width: 50vh;
     height: 40px;
     /* border: 2px solid black; */
+    width: 50%;
     border-radius: 6px;
     font-size: larger;
 }
@@ -54,6 +54,7 @@ li span{
     width: 60%;
     font-size: larger;
     text-transform: capitalize;
+    word-break: break-all;
 }
 li button{
     height: auto;
